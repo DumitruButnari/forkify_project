@@ -2,9 +2,10 @@
   "name": "forkify",
   "version": "1.0.0",
   "description": "Recipe application",
+  "default": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html --dist-dir ./dist"
   },
   "author": "Dumitru Butnari",
   "license": "ISC",
@@ -16,6 +17,7 @@
   "dependencies": {
     "core-js": "^3.27.2",
     "fractional": "^1.0.0",
+    "fracty": "^1.0.11",
     "regenerator-runtime": "^0.13.11",
     "sass": "^1.57.1"
   }
